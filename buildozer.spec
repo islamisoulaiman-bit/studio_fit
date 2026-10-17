@@ -5,14 +5,13 @@ package.domain = org.studiofit.gym
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,db,json
 version = 1.0.0
-requirements = python3,kivy,sqlite3,urllib3
+requirements = python3,kivy,sqlite3
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
-android.ndk = 25b
-p4a.branch = master
+android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
